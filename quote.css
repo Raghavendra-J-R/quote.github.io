@@ -1,0 +1,82 @@
+body{
+    background-color: rgb(140, 132, 142);
+}
+
+.main
+{
+  display: grid;
+  place-items:center;
+ 
+
+}
+
+h1,.text
+{
+    text-align: center;
+    font-weight: 900;
+}
+
+
+.quote-container
+{
+   
+    background-color: rgb(255, 255, 255);
+    width:400px;
+    padding:10px;
+    box-shadow: 5px 4px 0 0;
+    border-radius: 10px;
+    
+}
+
+.quote-bottom
+{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.icons button
+{
+border-radius: 50%;
+padding:10px;
+margin: 0;
+font-size: smaller;
+background: #e0e0e0;
+box-shadow:  3px -3px 6px #3c3737,
+             3px 3px 6px #ffffff;
+}
+
+.icons button i
+{
+    color: rgb(0, 0, 0); 
+}
+
+.author
+{
+    text-align: right;
+    margin-bottom: 20px;
+}
+
+#again
+{
+    /* background-color: black;
+    color: white;
+    border-radius: 15px; */
+    border-radius: 50px;
+background: #e0e0e0;
+box-shadow:  3px -3px 6px #3c3737,
+             3px 3px 6px #ffffff;
+}
+
+
+.icons button:hover
+{
+scale:0.75;
+}
+
+
+#again:hover
+{
+    background-color:black;
+    color:white;
+}
